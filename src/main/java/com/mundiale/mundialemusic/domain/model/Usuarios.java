@@ -7,7 +7,6 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
 import lombok.Data;
@@ -34,8 +33,6 @@ public class Usuarios {
 	@Column(name = "data_cadastro")
 	private Date dataCadastro;
 
-	@ManyToOne
-	private Playlist playlist;
-	
+		
 	
 }

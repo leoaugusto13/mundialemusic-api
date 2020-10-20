@@ -28,7 +28,8 @@ public class Playlist {
 	@ManyToOne
 	private Musicas musicas;
 	
-	
+	@ManyToOne
+	private Usuarios usuario;
 
 	
 }
